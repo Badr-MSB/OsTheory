@@ -72,11 +72,11 @@ A 2-bits counter improve prediction compairing to the 1-bit one because the firs
 ### Pipline
 
 The pipline is a way of executing instructions without waiting the end of its execution to grub another one. In this method all stages are computing their results.
-### Pipline : resolving dependencies 
+### Pipline : Problem 
 
 Structural dependencies :
 Architectural dependencies : 
-- Data dependecies :
-- Controle dependencies :
-
+- Data dependecies : is the consumer / productor dependency
+- Controle dependencies : banchement dependency
+### Solution
 solution : bypass network
